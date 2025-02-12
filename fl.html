@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost and Found - Found Treasures</title>
+  <!-- Link to Bootstrap for responsiveness -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="lf.css">
+</head>
+<body>
+  <header class="logo-header">
+ <a href ="index.html">
+  </a> 
+</header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lost.html">Report Lost</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="found.html">Report Found</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Found Treasures</h1>
+      <div class="head"> 
+        <p>Helping you find lost items around Makerere University </p>
+       </div>
+      
+      <div class="cta-buttons">
+        <a href="lost.html" class="btn btn-primary btn-lg">Report Lost Item</a>
+        <a href="found.html" class="btn btn-success batn-lg">Report Found Item</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Section -->
+  <div class="container mt-5">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search for lost or found items..." aria-label="Search">
+      <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+  </div>
+
+  <!-- Item Listing Section -->
+  <section class="items-listing">
+    <div class="container">
+      <h2 class="text-center mb-5">Recently Listed Items</h2>
+      <div class="row">
+        <!-- Example Card for an item -->
+         <!-- Example Card 1 -->
+         <div class="col-md-4 mb-4">
+          <div class="card item-card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Item Image">
+            <div class="card-body">
+              <h5 class="card-title">Item Name</h5>
+              <p class="card-text">place where found.</p>
+              <a href="#" class="btn btn-success">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Example Card 2-->
+        <div class="col-md-4 mb-4">
+          <div class="card item-card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Item Image">
+            <div class="card-body">
+              <h5 class="card-title">Item Name</h5>
+              <p class="card-text">place where found.</p>
+              <a href="#" class="btn btn-success">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Example Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card item-card">
+            <img src="https://via.placeholder.com/350x250" class="card-img-top" alt="Item Image">
+            <div class="card-body">
+              <h5 class="card-title">Item Name</h5>
+              <p class="card-text">place where found.</p>
+              <a href="#" class="btn btn-success">View Details</a>
+            </div>
+          </div>
+        </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Found Treasure. All rights reserved.</p>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

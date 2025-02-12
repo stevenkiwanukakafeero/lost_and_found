@@ -1,0 +1,141 @@
+body{
+  margin:0;
+}
+header{
+  margin:0;
+  padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+ 
+  .navbar {
+    margin:0;
+    background-color: #d19c0b;
+    color: white;
+    margin-top:0;
+    padding-top:0;
+    background-color:#d19c0b;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    padding:0;
+    margin:0;
+    text-align: center;
+    background-color: #024717;
+    color: rgb(150, 9, 4);
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  .cta-buttons {
+    margin: 20px 0;
+
+  }
+  .cta-buttons a {
+    margin-right: 15px;
+  }
+  .cta-button:hover{
+    background-color:gray;
+    border-color:orange;
+
+      }
+    .btn-primary:hover,
+    .btn-success:hover{
+      background-color: grey;
+      border-color:orange;
+    }
+    .btn-outline-primary:hover{
+      background-color: gray;
+      border-color:orange;
+    }
+  .items-listing {
+    padding: 40px 0;
+  }
+  .item-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  .item-card:hover {
+    transform: translateY(-5px);
+  }
+ .hero-section{
+  background-color: #024717;
+  height: 30vh;
+  flex-direction: column;
+  justify-content: center;
+  margin:0px;
+  padding:0px;
+ }
+ .navbar a {
+  color: white;
+  font-weight:bold;
+
+ }
+ .navbar a:hover {
+  color:#f4f4f4;
+  text-decoration: underline;
+ }
+ .hero-section img {
+  max-width: 250px;
+  margin-bottom:10px;
+ }
+ .navbar{
+  margin-left:auto; // push bar to the right
+ }
+ html, body{
+  margin:0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: Arial,sans-serif;
+  background-color: #f4f4f4 ! important;
+ }
+ .btn-primary{
+  background-color: #dc3545;
+  border-color:#dc3545;
+ }
+ .btn-outline-primary{
+  border-color:#dc3545;
+ }
+ .me-2{
+  border-color:#d19c0b;
+
+ }
+ .btn-outline-primary{
+color:orange
+ }
+ .hero-section img {
+  position:absolute;
+  top :20px;
+  left:20px;
+ }
+ .head{
+  color:gray;
+  font-size: 20px;
+  animation: growAndFade 5s ease-in-out infinite alternate;
+
+ }
+ @keyframes growAndFade{
+0%{
+  opacity: 0;
+  transform:scale(0.5);
+
+}
+50%{
+  opacity: 1;
+  transform: scale(1.2);
+}
+100%{
+  opacity: 0;
+  transform: scale(0.5);
+}}
+.footer { 
+  background: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 10px; margin-top: 20px;
+ } 

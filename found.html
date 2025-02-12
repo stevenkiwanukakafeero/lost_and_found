@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Report Lost Item</title>
+    <link rel="stylesheet" href="found.css">
+    <body>
+        <div class="container">
+            
+            <h1>Report Found Item</h1>
+            <form>
+                <label for="Item-Name">item Name</label>
+                <input type="text" id="item-Name" name="item-Name" required>
+
+                <label for="Description">Description of found Item</label>
+                <textarea id="Description" name="Description" rows="4" cols="50" required></textarea>
+
+                <label for="photo">Upload Photo of found Item</label>
+                <input type="file" id="photo" name="photo" accept="image/*" required>
+
+                <label for="location">Location of found Item</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="datetime" > Date and time of Finding:</label>
+                <input type="datetime-local" id="datetime" name="datetime" required>
+                
+                <label for="contact">Your Contact Information:</label>
+                <input type="text" id="contact" name="contact" required>
+                
+                <button type="submit">Submit Report</button>
+            </form>
+            <div class="cont">
+                <img src="" alt="Found Treasure Logo">
+                <h2>Lost and Found Web App</h2>
+                <p>Welcome to our Lost and Found Web App, where you can report lost items and find them.</p>
+                <p>Please note that this platform is for educational purposes only.</p>
+                <a href="#">Report a found Item</a>
+                <a href="lost.html">Report a lost item</a>
+                <a href="about.html">About Us</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="cookie.html">Cookie Policy</a>
+            </div>
+            <footer class="footer">
+                <p>&copy; 2024 Found Treasure. All rights reserved.</p>
+            </footer>
+    </body>
+</html>
